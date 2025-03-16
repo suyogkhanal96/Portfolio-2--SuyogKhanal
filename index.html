@@ -4,48 +4,66 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="images/favicon.png" type="images/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Suyog Khanal</title>
+    <title>Portfolio - Suyog Khanal</title>
     <script src="https://cdn.tailwindcss.com"></script>
-     
 </head>
-<body class="bg-white text-black flex flex-col items-center justify-center min-h-screen">
-    <h1 class="text-2xl md:text-4xl font-bold ">suyogkhanal96</h1>
-    <div class="w-56   md:w-96 border-t-2 border-gray-500 mt-2 "></div>
-    
-    <nav class="mt-4 flex space-x-4">
-        <a href="home.html" class="px-3 py-1 bg-gray-200 rounded transition duration-300 hover:bg-gray-300 transition delay-150 duration-300 ease-in-out">Home</a>
-        <a href="projects.html" class="px-3 py-1 bg-gray-200 rounded transition duration-300 hover:bg-gray-300 transition delay-150 duration-300 ease-in-out">Projects</a>
-        <a href="about.html" class="px-3 py-1 bg-gray-200 rounded transition duration-300 hover:bg-gray-300 transition delay-150 duration-300 ease-in-out">About</a>
-        <a href="contact.html" class="px-3 py-1 bg-gray-200 rounded transition duration-300 hover:bg-gray-300 transition delay-150 duration-300 ease-in-out">Contact</a>
-        <a href="#More" class="px-3 py-1 bg-gray-200 rounded transition duration-300 hover:bg-gray-300 transition delay-150 duration-300 ease-in-out">More</a>
+<body class="bg-white text-black flex flex-col items-center justify-center min-h-screen px-4">
+
+    <h1 class="text-3xl md:text-4xl font-bold text-center">suyogkhanal96</h1>
+    <div class="w-32 md:w-96 border-t-2 border-gray-500 mt-2"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="w-full mt-4">
+        <!-- Hamburger Button (Mobile) -->
+        <div class="md:hidden flex justify-center">
+            <button id="menu-toggle" class="text-gray-800 text-2xl focus:outline-none">
+                ☰
+            </button>
+        </div>
+
+        <!-- Desktop & Mobile Menu -->
+        <ul id="menu" class="hidden md:flex md:justify-center md:space-x-3 items-center mt-2">
+            <li class="md:ml-auto"><a href="home.html" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Home</a></li>
+            <li><a href="projects.html" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Projects</a></li>
+            <li class="md:mr-auto"><a href="about.html" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">About</a></li>
+            <li><a href="contact.html" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Contact</a></li>
+            <li><a href="#More" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">More</a></li>
+        </ul>
     </nav>
-    
-    <p class="w-56 text-center md:w-96 text-black-500">
+
+    <p class="w-full md:w-96 text-center text-gray-600 mt-4">
         I'm a 16-year-old student and a tech enthusiast from Butwal, Nepal, passionate about coding.
         I'm exploring the world of web development, one line of code at a time.
     </p>
-    
-    <div class="w-56 md:w-96 border-t-2 border-gray-500 mt-4"></div>
-    
-    <footer >
-        <div class="text-sm flex space-x-3 mt-4">
-        <a href="https://instagram.com" target="_blank" class="text-gray-600 social-link  md:text-gray-800 transition delay-150 duration-300 ease-in-out">Instagram</a>
-        <a href="https://youtube.com" target="_blank" class="text-gray-600 social-link hover:text-gray-800 transition delay-150 duration-300 ease-in-out">Youtube</a>
-        <a href="https://linkedin.com" target="_blank" class="text-gray-600 social-link hover:text-gray-800 transition delay-150 duration-300 ease-in-out" >LinkedIn</a>
-        <a href="https://x.com" target="_blank" class="text-gray-600 social-link hover:text-gray-800 transition delay-150 duration-300 ease-in-out">X</a>
-        <a href="https://github.com" target="_blank" class="text-gray-600 social-link hover:text-gray-800 transition delay-150 duration-300 ease-in-out">Github</a>
-    </div>
-         <div><p class="text-gray-600 flex justify-center ">
-            <a href="" class="hover:text-gray-800 transition delay-150 duration-300 ease-in-out">contact.suyog96@gmail.com</a>
-            <p class="text-gray-600 flex justify-center">©suyogkhanal96 </p>
-         </p></div>
 
+    <div class="w-32 md:w-96 border-t-2 border-gray-500 mt-4"></div>
 
+    <!-- Footer -->
+    <footer class="mt-6 w-full flex flex-col items-center space-y-2 text-sm">
+        <div class="flex flex-wrap justify-center space-x-3">
+            <a href="https://instagram.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">Instagram</a>
+            <a href="https://youtube.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">YouTube</a>
+            <a href="https://linkedin.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">LinkedIn</a>
+            <a href="https://x.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">X</a>
+            <a href="https://github.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">GitHub</a>
+        </div>
+
+        <a href="mailto:contact.suyog96@gmail.com" class="text-gray-600 hover:text-gray-800 transition duration-300">
+            contact.suyog96@gmail.com
+        </a>
+
+        <p class="text-gray-600">© 2025 suyogkhanal96</p>
     </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
     <script>
-   //alert("The website is underdevelopment phase.")
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
 
-
+        menuToggle.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
     </script>
+
 </body>
 </html>
