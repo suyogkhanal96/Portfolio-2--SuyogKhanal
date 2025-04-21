@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="images/favicon.png" type="images/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Suyog Khanal</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="images/favicon.png" type="images/x-icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>suyogkhanal96</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white text-black flex flex-col items-center justify-center min-h-screen px-4">
 
-    <h1 class="text-3xl md:text-4xl font-bold text-center">suyogkhanal96</h1>
-    <div class="w-32 md:w-96 border-t-2 border-gray-500 mt-2"></div>
+<body>
+    <div class="relative fixed text-[]">
+        
+        <a href="">home</a>
+        <a href="">contact</a>
 
-    <!-- Navigation Bar -->
-    <nav class="w-full mt-4">
-        <!-- Hamburger Button (Mobile) -->
-        <div class="md:hidden flex justify-center">
-            <button id="menu-toggle" class="text-gray-800 text-2xl focus:outline-none">
-                ☰
-            </button>
+    </div>
+    <div class="my-10 mx-10">
+        <div>
+            <h5 class="flex justify-center items-center text-4xl text-gray-600 mb-3">
+                suyogkhanal96
+            </h5>
         </div>
 
-        <!-- Desktop & Mobile Menu -->
-        <ul id="menu" class="hidden md:flex md:justify-center md:space-x-3 items-center mt-2">
-            <li class="md:ml-auto"><a href="home.html" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Home</a></li>
-            <li><a href="projects.html" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Projects</a></li>
-            <li class="md:mr-auto"><a href="about.html" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">About</a></li>
-            <li><a href="contact.html" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Contact</a></li>
-            <li><a href="#More" class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">More</a></li>
+        <hr />
+        <div>
+            <p class="text-gray-500 mx-10 my-10">
+                I'm a 16-year-old student and a web enthusiast from Butwal, Nepal,
+                passionate about coding. I'm exploring the world of web development,
+                one line of code at a time.
+            </p>
+        </div>
+
+        <hr />
+        <ul id="menu" class="hidden flex justify-center space-x-3 items-center mt-2">
+            <li class="ml-auto">
+                <a href="home.html"
+                    class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Home</a>
+            </li>
+            <li>
+                <a href="projects.html"
+                    class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Projects</a>
+            </li>
+            <li class="md:mr-auto">
+                <a href="about.html"
+                    class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">About</a>
+            </li>
+            <li>
+                <a href="contact.html"
+                    class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">Contact</a>
+            </li>
+            <li>
+                <a href="#More"
+                    class="block px-6 py-2 bg-gray-200 rounded-md text-center hover:bg-gray-300 transition duration-300">More</a>
+            </li>
         </ul>
-    </nav>
 
-    <p class="w-full md:w-96 text-center text-gray-600 mt-4">
-        I'm a 16-year-old student and a tech enthusiast from Butwal, Nepal, passionate about coding.
-        I'm exploring the world of web development, one line of code at a time.
-    </p>
+        <footer class="mt-6 w-full flex flex-col items-center space-y-2 text-sm">
 
-    <div class="w-32 md:w-96 border-t-2 border-gray-500 mt-4"></div>
 
-    <!-- Footer -->
-    <footer class="mt-6 w-full flex flex-col items-center space-y-2 text-sm">
-        <div class="flex flex-wrap justify-center space-x-3">
-            <a href="https://instagram.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">Instagram</a>
-            <a href="https://youtube.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">YouTube</a>
-            <a href="https://linkedin.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">LinkedIn</a>
-            <a href="https://x.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">X</a>
-            <a href="https://github.com" target="_blank" class="text-gray-600 hover:text-gray-800 transition duration-300">GitHub</a>
-        </div>
+            <a href="mailto:contact.suyog96@gmail.com"
+                class="text-gray-600 hover:text-gray-800 transition duration-300">
+                contact.suyog96@gmail.com
+            </a>
 
-        <a href="mailto:contact.suyog96@gmail.com" class="text-gray-600 hover:text-gray-800 transition duration-300">
-            contact.suyog96@gmail.com
-        </a>
-
-        <p class="text-gray-600">© 2025 suyogkhanal96</p>
-    </footer>
-
-    <!-- JavaScript for Hamburger Menu -->
-    <script>
-        const menuToggle = document.getElementById("menu-toggle");
-        const menu = document.getElementById("menu");
-
-        menuToggle.addEventListener("click", () => {
-            menu.classList.toggle("hidden");
-        });
-    </script>
-
+            <p class="text-gray-600">©2025 suyogkhanal96</p>
+        </footer>
+    </div>
 </body>
+
 </html>
